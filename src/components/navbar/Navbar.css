@@ -1,0 +1,131 @@
+@import '../../index.css';
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid var(--color);
+}
+
+a {
+    color: var(--color);
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: var(--font);
+    cursor: pointer;
+    color: var(--color);
+}
+
+.user {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+.user li {
+    color: var(--color);
+    padding: 5px;
+}
+
+.user li:hover {
+    background-color: var(--color);
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        border-bottom: 2px solid var(--color);
+    }
+    
+    a {
+        color: var(--color);
+        text-decoration: none;
+    }
+    
+    .logo {
+        font-size: 20px;
+        font-family: var(--font);
+        cursor: pointer;
+        color: var(--color);
+    }
+    
+    .user {
+        display: flex;
+        gap: 10px;
+        list-style-type: none;
+        font-family: var(--font);
+        font-weight: bold;
+    }
+    
+    .user li {
+        font-size: 12px;
+        color: var(--color);
+        padding: 5px;
+    }
+    
+    .user li:hover {
+        background-color: var(--color);
+        color: white;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 2px solid var(--color);
+    }
+    
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+    
+    .logo {
+        font-size: 35px;
+        font-family: var(--font);
+        cursor: pointer;
+        color: var(--color);
+    }
+    
+    .user {
+        display: flex;
+        gap: 10px;
+        list-style-type: none;
+        font-family: var(--font);
+        font-weight: bold;
+    }
+    
+    .user li {
+        font-size: 18px;
+        color: var(--color);
+        padding: 5px;
+    }
+    
+    .user li:hover {
+        background-color: var(--color);
+        color: white;
+        cursor: pointer;
+    }
+
+}
